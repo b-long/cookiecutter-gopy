@@ -1,0 +1,30 @@
+[project]
+name = "{{ cookiecutter.project_slug }}"
+# Should match 'setup.py' version number (used for gopy/pybindgen)
+version = "{{ cookiecutter.version }}"
+description = "FIXME"
+authors = [
+    {name="b-long", email="b-long@users.noreply.github.com"}
+]
+readme = "README.md"
+requires-python = ">=3.11"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[dependencies]
+wheel = "^0.45.0"
+pybindgen = "^0.22.1"
+
+[tool.poetry]
+package-mode = false
+version = "{{ cookiecutter.version }}"
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.14"
+wheel = "^0.45.0"
+pybindgen = "^0.22.1"
+
+[tool.poetry.group.dev.dependencies]
+pytest = ">=8.1"

@@ -1,0 +1,10 @@
+{
+    "directory_name": "Hello",
+    "file_name": "Howdy",
+    "project_description": "A gopy project",
+    "project_name": "gopy-example-project",
+    "project_slug": "{{ cookiecutter.project_name.lower().replace('-', '_') }}",
+    "author": "Anonymous",
+    "author_email": "anonymous@users.noreply.github.com",
+    "version": "0.1.0"
+}
