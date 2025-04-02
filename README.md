@@ -12,7 +12,6 @@ A [cookiecutter] to help generate a `gopy` project.
 # Install cookiecutter
 pipx install cookiecutter
 
-# Fetch the private cookiecutter
-cookiecutter git+ssh://git@github.com/b-long/cookiecutter-gopy.git
-
+# Use a specific branch
+cookiecutter https://github.com/b-long/cookiecutter-gopy.git --checkout develop
 ```
